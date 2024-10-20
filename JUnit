@@ -32,7 +32,14 @@ Step 11:In the Build Steps section, select Invoke top-level Maven targets.
 
 Step 12: under advance option Provide the full path to pom.xml
 
-Scroll down to “Post Build Actions” and click on the “Add Post Build Actions” drop-
+Scroll down to “Post Build Actions” and click on the “Add Post Build Actions” 
+drop-down list select "publish Junit test result report"
+
+Enter the Result Path as “**/target/surefire-reports/*.xml”. Click on the
+Apply and Save buttons
+
+Execute the tests by clicking on the “Build Now” button.
+
 
 
 
