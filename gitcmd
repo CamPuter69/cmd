@@ -23,3 +23,9 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/your-username/your-repo.git
 
 git push -u origin master
+
+git merge feature-branch
+
+git checkout master   (change branch)
+
+git checkout -b xyz  (create an new branch)
