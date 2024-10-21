@@ -1,3 +1,5 @@
+build authorization token root plugin
+
 1.)click on new item on admin dashboard and create pipeline project and name it trigger_project
 2.)under General select This project is parameterized ?
 3.)add 2 String parameter
